@@ -48,7 +48,7 @@ export default function App() {
           <p style={{ marginTop: 0 }}>
             Comforters is a new band from Ridgewood, Queens, featuring Andy Borsz and
             Jessica Garson Beauchemin. The pair became close while performing as part of
-            the collective Vicersal Realists on tour in China, and soon wanted to explore
+            the collective Visceral Realists on tour in China, and soon wanted to explore
             beyond the minimalism of their previous project. They debuted in late 2025 at
             Freak World and are known for their loud, organized chaos in their live sets.
             They use live coding frameworks such as Tidal Cycles and SuperCollider,
