@@ -18,12 +18,13 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg: #242424;
-    --fg: rgba(255, 255, 255, 0.87);
+    --bg: #121212; /* neutral dark, not brown */
+    --fg: rgba(255, 255, 255, 0.9);
     --link: #8c92ff;
     --link-hover: #a5aaff;
   }
 }
+
 
 html,
 body {
@@ -35,8 +36,7 @@ body {
   min-width: 320px;
   min-height: 100vh;
 
-  display: flex;
-  place-items: center;
+  display: block;
 
   background-color: var(--bg);
   color: var(--fg);
@@ -45,7 +45,9 @@ body {
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  margin-top: 0;
 }
+
 
 a {
   font-weight: 500;
