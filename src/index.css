@@ -7,8 +7,8 @@
 
   --bg: #ffffff;
   --fg: #111111;
-  --link: #646cff;
-  --link-hover: #535bf2;
+  --link: #c8caf0;
+  --link-hover: #c8caf0;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -18,10 +18,10 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg: #121212; /* neutral dark, not brown */
-    --fg: rgba(255, 255, 255, 0.9);
-    --link: #8c92ff;
-    --link-hover: #a5aaff;
+    --bg: #121212;
+    --fg: rgb(255, 255, 255);
+    --link: #c8caf0;
+    --link-hover: #c8caf0;
   }
 }
 
