@@ -81,24 +81,6 @@ export default function App() {
             </li>
           </ul>
         </section>
-
-        <section style={{ marginTop: 48 }}>
-          <h2 style={{ textAlign: "center", marginBottom: 16 }}>
-            Upcoming Shows
-          </h2>
-
-          <ul
-            style={{
-              listStyle: "none",
-              padding: 0,
-              margin: 0,
-            }}
-          >
-            <li style={{ padding: "10px 0" }}>
-              February 15 — Nonstop Noise Fest — Brooklyn, NY — The Living Gallery
-            </li>
-          </ul>
-        </section>
       </div>
     </main>
   );
