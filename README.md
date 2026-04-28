@@ -2,7 +2,7 @@
 
 A minimal website for the band Comforters.
 
-The site is designed as a stark black-and-white landing page with a large wordmark, a short descriptor, and a link to the band's Bandcamp page.
+The site is designed as a stark black-and-white landing page with a large logo, a short descriptor, and a link to the band's Bandcamp page.
 
 ## Built With
 
