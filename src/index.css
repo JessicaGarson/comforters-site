@@ -1,43 +1,49 @@
 :root {
+  font-family: "Courier New", Courier, monospace;
+  line-height: 1.5;
+  font-weight: 400;
   color-scheme: light dark;
-
-  --bg: #ffffff;
-  --fg: #111111;
-  --muted: #374151;
-  --heading: #0b1220;
-  --link: #2f3cff;
-  --link-hover: #1f2ae6;
+  --background: #ffffff;
+  --foreground: #111111;
+  --inverse: #f5f5f5;
+  --focus: #111111;
+  color: var(--foreground);
+  background: var(--background);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg: #0b0f14;
-    --fg: rgba(255, 255, 255, 0.92);
-    --muted: rgba(255, 255, 255, 0.72);
-    --heading: #ffffff;
-    --link: #9aa3ff;
-    --link-hover: #c3c8ff;
+    --background: #0d0d0d;
+    --foreground: #fafafa;
+    --inverse: #111111;
+    --focus: #fafafa;
   }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-width: 320px;
 }
 
 body {
   margin: 0;
   min-height: 100vh;
-  background: var(--bg);
-  color: var(--fg);
+  color: var(--foreground);
+  background: var(--background);
 }
 
-h1, h2, h3 {
-  color: var(--heading);
+img {
+  max-width: 100%;
 }
 
-p, li, small, em {
-  color: var(--muted);
-}
-
+button,
 a {
-  color: var(--link);
-}
-a:hover {
-  color: var(--link-hover);
+  font: inherit;
 }
