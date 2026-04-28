@@ -60,7 +60,11 @@
 
 @media (max-width: 640px) {
   .site-shell {
-    padding: 1.75rem 1.25rem;
+    padding: 1.75rem 1.5rem;
+  }
+
+  .site-copy h1 {
+    font-size: clamp(4rem, 16vw, 5.5rem);
   }
 
   .subheader {
