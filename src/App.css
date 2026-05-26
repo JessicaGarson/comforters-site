@@ -35,27 +35,80 @@
   white-space: nowrap;
 }
 
-.bandcamp-link {
-  display: inline-block;
+.site-nav {
+  display: flex;
+  gap: 1rem;
   margin-top: 2.5rem;
   padding-top: 1.4rem;
   border-top: 2px solid var(--foreground);
+}
+
+.nav-link {
+  display: inline-block;
+  min-width: 10rem;
+  margin-top: 2.5rem;
+  margin-top: 0;
+  padding: 0.15rem 0.35rem;
   color: var(--foreground);
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 0.18em;
   font-size: clamp(1.15rem, 2.8vw, 1.7rem);
   font-weight: 700;
+  text-align: center;
 }
 
-.bandcamp-link:hover {
+.nav-link:hover,
+.nav-link.is-active {
   background: var(--foreground);
   color: var(--background);
 }
 
-.bandcamp-link:focus-visible {
+.nav-link:focus-visible {
   outline: 3px solid var(--focus);
   outline-offset: 0.4rem;
+}
+
+.tour-section {
+  width: 100%;
+  max-width: 34rem;
+  margin-top: 3rem;
+}
+
+.tour-section h2 {
+  margin: 0 0 1.25rem;
+  font-size: 0.95rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.tour-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.tour-item + .tour-item {
+  margin-top: 1.25rem;
+}
+
+.tour-date,
+.tour-location {
+  margin: 0;
+}
+
+.tour-date {
+  font-size: clamp(1rem, 2vw, 1.25rem);
+  line-height: 1.25;
+  letter-spacing: 0.08em;
+}
+
+.tour-location {
+  margin-top: 0.35rem;
+  font-size: clamp(0.95rem, 1.7vw, 1.1rem);
+  line-height: 1.35;
+  letter-spacing: 0.08em;
 }
 
 @media (max-width: 640px) {
@@ -70,5 +123,26 @@
   .subheader {
     font-size: 0.85rem;
     letter-spacing: 0.1em;
+  }
+
+  .site-nav {
+    width: 100%;
+    gap: 0.75rem;
+  }
+
+  .nav-link {
+    min-width: 0;
+    flex: 1;
+    font-size: 1rem;
+    letter-spacing: 0.12em;
+  }
+
+  .tour-section {
+    margin-top: 2.5rem;
+  }
+
+  .tour-date,
+  .tour-location {
+    letter-spacing: 0.06em;
   }
 }
