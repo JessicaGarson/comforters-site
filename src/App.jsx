@@ -62,7 +62,7 @@ export default function App() {
         </nav>
         {isTourPage ? (
           <section className="tour-section" aria-labelledby="tour-heading">
-            <h2 id="tour-heading">Tour</h2>
+            <h2 id="tour-heading">Europe 2026</h2>
             <ul className="tour-list">
               {tourDates.map((show) => (
                 <li key={`${show.date}-${show.venue}`} className="tour-item">
