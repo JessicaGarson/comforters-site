@@ -9,7 +9,7 @@ const tourDates = [
   },
   {
     date: "July 1",
-    venue: "Deerland Tea",
+    venue: "P60 Culture Space",
     location: "Berlin, Germany",
   },
   {
